@@ -1,0 +1,1242 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"err",
+				"error"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"inpu",
+				"input-md"
+			],
+			[
+				"li",
+				"lighter"
+			],
+			[
+				"text",
+				"text-white"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"backgroun",
+				"background-attachment"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"conta",
+				"container-element"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bo",
+				"bolder"
+			],
+			[
+				"hy",
+				"hyperlinks"
+			],
+			[
+				"op",
+				"op-ie\tfilter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);"
+			],
+			[
+				"ca",
+				"all-petite-caps"
+			],
+			[
+				"c",
+				"titling-case"
+			],
+			[
+				"backgro",
+				"background-position"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"tex",
+				"text-light"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"file",
+				"file_base_name"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"po",
+				"POST"
+			],
+			[
+				"con",
+				"connection"
+			],
+			[
+				"mem",
+				"members_select_query_result"
+			],
+			[
+				"cen",
+				"text-center"
+			],
+			[
+				"video_select_query",
+				"video_select_query_result"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"select",
+				"select_query_feedback_result"
+			],
+			[
+				"sele",
+				"select_query_subscribers_result"
+			],
+			[
+				"mysqli",
+				"mysqli_error"
+			],
+			[
+				"cont",
+				"container-fluid"
+			],
+			[
+				"page3",
+				"page3Banner"
+			],
+			[
+				"s",
+				"saturate()"
+			],
+			[
+				"events_sele",
+				"events_select_query_result"
+			],
+			[
+				"overf",
+				"overflow-y"
+			],
+			[
+				"inli",
+				"inline-table"
+			],
+			[
+				"blogs",
+				"blogs_select_query_result"
+			],
+			[
+				"photo",
+				"photographer"
+			],
+			[
+				"gallery",
+				"gallery_select_query_result"
+			],
+			[
+				"ds",
+				"display_name"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"members",
+				"members_select_query_result"
+			],
+			[
+				"member",
+				"members_select_query_result"
+			],
+			[
+				"comments",
+				"comments_select_query_result"
+			],
+			[
+				"mysqli_fet",
+				"mysqli_fetch_array"
+			],
+			[
+				"total",
+				"total_blogs"
+			],
+			[
+				"du",
+				"duplicate_blog_check_query_result"
+			],
+			[
+				"co",
+				"connection"
+			],
+			[
+				"blog",
+				"blog_select_query_result"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"value",
+				"defaultValue"
+			],
+			[
+				"genere",
+				"genere_select_query"
+			],
+			[
+				"spa",
+				"spacer"
+			],
+			[
+				"succe",
+				"success"
+			],
+			[
+				"success",
+				"Successfully"
+			],
+			[
+				"t",
+				"timeout\tsetTimeout function"
+			],
+			[
+				"cmd",
+				"cmdAppend"
+			],
+			[
+				"pin",
+				"pin_result"
+			],
+			[
+				"name",
+				"name_match"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"nm",
+				"name_sample"
+			],
+			[
+				"upload",
+				"upload_query"
+			],
+			[
+				"phot",
+				"photographer"
+			],
+			[
+				"photographer",
+				"photographer_name"
+			],
+			[
+				"select_query",
+				"select_query_pin_result"
+			],
+			[
+				"ui",
+				"uiPin"
+			],
+			[
+				"position",
+				"position"
+			],
+			[
+				"table-r",
+				"table-footer-group"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"overflow",
+				"overflow-x"
+			],
+			[
+				"de",
+				"hidden"
+			],
+			[
+				"render",
+				"renderGallery"
+			],
+			[
+				"url",
+				"urlCache"
+			],
+			[
+				"tru",
+				"true"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"temp",
+				"template"
+			],
+			[
+				"n",
+				"unset"
+			],
+			[
+				"data",
+				"datalist\tTag"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"check",
+				"checkedList"
+			],
+			[
+				"checked",
+				"checkedlist"
+			],
+			[
+				"bind",
+				"bindEvents"
+			],
+			[
+				"cache",
+				"cacheDom"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"play",
+				"playInstrument"
+			],
+			[
+				"decode",
+				"decodedCookie"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"tim",
+				"timestamp"
+			],
+			[
+				"kern",
+				"font-kerning"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"word-",
+				"word-break"
+			],
+			[
+				"mas",
+				"mastheadUpload"
+			],
+			[
+				"gt",
+				"getElementById"
+			],
+			[
+				"tool",
+				"toolTip"
+			],
+			[
+				"backr",
+				"background"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"colo",
+				"color_palette"
+			],
+			[
+				"background-o",
+				"background-position"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"under",
+				"underlay_2"
+			],
+			[
+				"sa",
+				"sepia()"
+			],
+			[
+				"filter",
+				"filter"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"trn",
+				"transition"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"eas",
+				"ease-in"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"he",
+				"header_mobile"
+			],
+			[
+				"backgroundi",
+				"background-size"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"rgb",
+				"rgb()"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"tb",
+				"tbody\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1411,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "structure/jumbotron.html",
+			"settings":
+			{
+				"buffer_size": 175,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 63,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 2298,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/signup.html",
+			"settings":
+			{
+				"buffer_size": 1857,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "structure/menu.html",
+			"settings":
+			{
+				"buffer_size": 3485,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/login.html",
+			"settings":
+			{
+				"buffer_size": 1206,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"livereload",
+				"LiveReload: Self test"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"live rel",
+				"SublimeServer: Restart SublimeServer"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Internshala/Angular JS/blogs"
+	],
+	"file_history":
+	[
+		"/E/Internshala/Angular JS/blogs/templates/home.html",
+		"/E/Internshala/Angular JS/blogs/blogit.sublime-project",
+		"/E/Internshala/Web development/Iron Man/index.html",
+		"/E/portfolio/style.css",
+		"/E/portfolio/index.html",
+		"/E/portfolio/blogs/style.css",
+		"/E/portfolio/template.html",
+		"/E/portfolio/blogs/index.html",
+		"/E/Internshala/Angular JS/blogs/index.html",
+		"/E/portfolio/blogs/app.js",
+		"/E/Internshala/Web development/panels/index.html",
+		"/C/Users/Abhijeet/source/repos/style.css",
+		"/C/Users/Abhijeet/source/repos/app.js",
+		"/C/Users/Abhijeet/source/repos/index.html",
+		"/E/Internshala/Angular JS/part 1/exercise1/index.html",
+		"/E/Angular Js/angular.min.js",
+		"/E/Internshala/Angular JS/part 1/exercise1/app.js",
+		"/E/Angular Js/style.css",
+		"/E/Angular Js/script.js",
+		"/E/Angular Js/index.html",
+		"/C/Games/update-crysis2.html",
+		"/E/C/pointer.c",
+		"/E/C/LCM.c",
+		"/E/C/prime.c",
+		"/E/portfolio/mobile_view_alternate.css",
+		"/E/portfolio/fonts/fortunecity-demo.html",
+		"/E/portfolio/fonts/stylesheet.css",
+		"/E/Internshala/Angular JS/part 1/exercise3/app.js",
+		"/E/Internshala/Angular JS/part 1/exercise3/index.html",
+		"/E/Angular Js/app.js",
+		"/C/Users/Abhijeet/AppData/Roaming/Sublime Text 3/Packages/LiveReload/web/style.css",
+		"/C/Users/Abhijeet/AppData/Roaming/Sublime Text 3/Packages/LiveReload/web/test.html",
+		"/C/Users/Abhijeet/AppData/Roaming/Sublime Text 3/Packages/LiveReload/web/index.html",
+		"/C/Users/Abhijeet/AppData/Roaming/Sublime Text 3/Packages/User/SublimeServer.sublime-settings",
+		"/E/portfolio/portfolio.sublime-project",
+		"/C/wamp64/www/website/gallery/style.css",
+		"/C/wamp64/www/website/style.css",
+		"/E/Bootstrap/index.html",
+		"/E/C/HCF.c",
+		"/E/C/digit2word.c",
+		"/E/C/index.c",
+		"/C/Users/Abhijeet/AppData/Roaming/Sublime Text 3/Packages/User/C.sublime-build",
+		"/E/Angular Js/C/index.c",
+		"/C/wamp64/www/website/gallery/script.js",
+		"/C/Users/Abhijeet/Desktop/Portfolio Website/css/singlePageTemplate.css",
+		"/C/wamp64/www/website/index.php",
+		"/C/wamp64/www/portfolio/script.js",
+		"/C/wamp64/www/portfolio/style.css",
+		"/C/wamp64/www/portfolio/index.html",
+		"/C/wamp64/www/website/about/style.css",
+		"/C/wamp64/www/website/about/about.html",
+		"/C/Users/Abhijeet/AppData/Local/Temp/0500e71a-116e-4f10-88ea-05354815271f/public_html/about/style.css",
+		"/C/Users/Abhijeet/AppData/Local/Temp/0500e71a-116e-4f10-88ea-05354815271f/public_html/about/about.html",
+		"/C/wamp64/www/website/signup/style.css",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/signup/signup.php",
+		"/C/wamp64/www/website/signup/signup.php",
+		"/C/wamp64/www/website/signup/script.js",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/index.php",
+		"/C/wamp64/www/website/script.js",
+		"/C/wamp64/www/website/people/profile_harshit_tiwari.html",
+		"/C/wamp64/www/website/people/profile_parth_gandhi.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_parth_gandhi.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/people.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/script.js",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_vijay_pawar.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_shreya_singh.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_praveen_singh_dhurwey.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_pratik_akhouri.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_amit_sitaria.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_anshuman_mishra.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_ayushi_dayal.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_harshit_tiwari.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_kajol_roy.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_kapil_billore.html",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_layout_common.css",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/profile_prakansh_jain.html",
+		"/C/Users/Abhijeet/AppData/Local/Temp/0500e71a-116e-4f10-88ea-05354815271f/public_html/script.js",
+		"/C/Users/Abhijeet/AppData/Local/Temp/0500e71a-116e-4f10-88ea-05354815271f/public_html/index.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/blogs/template/add_comment.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/video/videos.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/video/script.js",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/video/verification/add_video.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/subscription/subscription.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/signup/script.js",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/gallery/gallery.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/signup/verification/add_users.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/gallery/verification/add_images.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/events/events.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/events/verification/add_event.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/events/new event/new_event.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/blogs/verification/add_blog.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/blogs/template/blog.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/people/people.css",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/events/template/event.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/events/template/add_comment.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/blogs/blogs.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/about/add_feedback.php",
+		"/E/Restricted_folder/Do not enter(Default)/Career/Graphic Designing/Website/pages/website/blogs/new blog/new_blog.php",
+		"/C/wamp64/www/website/blogs/template/style.css",
+		"/C/wamp64/www/website/blogs/verification/add_blog.php",
+		"/C/wamp64/www/website/blogs/new blog/new_blog.php",
+		"/C/wamp64/www/website/blogs/deprecated(0)/first_blog.html",
+		"/C/wamp64/www/website/blogs/template/script.js",
+		"/C/wamp64/www/website/blogs/template/blog.php",
+		"/C/wamp64/www/website/events/verification/add_event.php",
+		"/C/wamp64/www/website/events/events.php",
+		"/C/wamp64/www/website/video/videos.php",
+		"/C/wamp64/www/website/people/people.html",
+		"/C/wamp64/www/website/people/people.css",
+		"/C/wamp64/www/website/gallery/gallery.php",
+		"/C/wamp64/www/website/blogs/blogs.php",
+		"/C/wamp64/www/website/video/script.js",
+		"/C/wamp64/www/website/video/verification/style.css",
+		"/C/wamp64/www/website/video/verification/script.js",
+		"/C/wamp64/www/website/video/verification/add_video.php",
+		"/C/wamp64/www/website/blogs/template/add_comment.php",
+		"/C/wamp64/www/website/video/style.css",
+		"/C/wamp64/www/website/video/video.php",
+		"/C/wamp64/www/website/blogs/new blog/script.js",
+		"/C/wamp64/www/website/events/script.js",
+		"/E/Internshala/bootstrap/css/bootstrap-theme.css",
+		"/C/wamp64/www/website/video/video.html",
+		"/C/wamp64/www/website/report/script.js",
+		"/C/wamp64/www/website/report/style.css",
+		"/C/wamp64/www/website/report/report.html",
+		"/C/wamp64/www/website/people/profile_amit_sitaria.html",
+		"/C/wamp64/www/website/about/script.js",
+		"/C/wamp64/www/website/about/add_feedback.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" class=\"form-control input-md\"",
+			"data",
+			"/span",
+			"255",
+			"strong",
+			";\n",
+			"h2",
+			"h3",
+			"right",
+			"text",
+			"center",
+			"p",
+			"text",
+			"Text",
+			"text",
+			"Text",
+			"text",
+			"Text",
+			"text",
+			"Text",
+			"text",
+			"Text",
+			"text",
+			"Text",
+			"text",
+			"Text",
+			"text",
+			"Text",
+			"text",
+			"Text",
+			"text",
+			"primary",
+			"muted",
+			"h3",
+			"h1",
+			"class=\"col\"",
+			"col",
+			"'",
+			"\"",
+			"10",
+			" ",
+			",",
+			"int ",
+			"5",
+			"p",
+			"span",
+			"nav",
+			"tr",
+			"p",
+			"connection",
+			"first",
+			"last",
+			"connection",
+			"jpg",
+			"photographer",
+			"p",
+			"exampleInputPassword1",
+			"exampleInputEmail1",
+			"jumbotron",
+			"password",
+			"Password",
+			"exampleInputPassword1",
+			"blogs",
+			"20",
+			"9",
+			"10",
+			"10px",
+			"xs",
+			"email",
+			"Email",
+			"email",
+			"pin",
+			"html",
+			"sm",
+			"<p>",
+			"</p>",
+			"exampleInputEmail1",
+			"sm",
+			"span",
+			"p",
+			"span",
+			"</p>",
+			"  </p>",
+			"<p>",
+			"h4",
+			"h3",
+			"resize",
+			"#smallDevices",
+			"panel",
+			"image_placeholder",
+			"timestamp",
+			"blogs",
+			"footer",
+			"links",
+			"image",
+			"\"#commentContent\"",
+			"#commentContent",
+			"this",
+			".content",
+			"upload",
+			"title",
+			"masthead",
+			"subtitle",
+			"masthead",
+			"abc",
+			"localhost",
+			"signature",
+			"_post",
+			"filename",
+			"#signa",
+			"filename",
+			"border: 1px solid black",
+			";*/\n",
+			"%;",
+			"thumbnail",
+			"submit",
+			"div",
+			"html",
+			"submit",
+			"div",
+			">\n",
+			"value",
+			"this.literal",
+			"uploadbu",
+			"span",
+			"\"",
+			"span",
+			"query_2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								531,
+								531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "structure/jumbotron.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 63,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1653,
+								1653
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 568.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/signup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1289,
+								1289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "structure/menu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2884,
+								2884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1050,
+								1031
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 90.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/C.sublime-build",
+	"project": "blogit.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
