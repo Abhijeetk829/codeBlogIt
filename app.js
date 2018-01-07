@@ -23,54 +23,60 @@ app.config(function($routeProvider, $locationProvider){
 
 		.when('/signup' , {
 			templateUrl: "templates/signup.html",
-			controller: "signupCtrl"
+			controller: "signUpCtrl"
+		})
+
+		.when('/viewblogs' , {
+			templateUrl: "templates/viewblogs.html",
+			// controller: "viewBlogs"
 		})
 })
 
-// app.controller('homeCtrl', function($scope, $http){
-// 	var API_KEY = "53b5e757611a67783fcc501a3f5ed57a";
+app.controller('homeCtrl', function($scope, $http){
+	var API_KEY = "53b5e757611a67783fcc501a3f5ed57a";
+	$scope.city ;
 
-// 	$http.get("http://api.openweathermap.org/data/2.5/weather?q=bhopal&APPID="+API_KEY)
-// 	.then(success, failure);
+	$scope.weatherQuery = function(currentCity, condition){
 
-// 	function success(response) {
-// 		console.log(response);
-// 		$scope.weatherData = response.data;
-// 	}
+		if (condition == true) {
+			currentCity = $scope.city;
+		}
+		$http.get("http://api.openweathermap.org/data/2.5/weather?q="+currentCity+"&APPID="+API_KEY)
+		.then(success, failure);
 
-// 	function failure(err) {
-// 		console.log(err);
-// 	}
+		function success(response) {
+			console.log(response);
+			$scope.weatherData = response.data;
+			var k = response.data.main.temp;
+			var c = k-273.15;
+			$scope.temprature = c.toFixed(0);
+		}
 
-// 	$scope.warn = function() {
-// 		alert("You fool!");
-// 	}
-// });
+		function failure(err) {
+			console.log(err);
+		}
+
+		$scope.warn = function() {
+			alert("You fool!");
+		}
+	}
+
+	$scope.weatherQuery("Bhopal","false")
+});
 
 app.controller('loginCtrl', function($scope){
 	$scope.login = function(){
 		Stamplay.User.currentUser()
 		.then(function(response){
 			console.log(response);
-		}, function(error){
-			console.log(error);
-		});
-	}
-
-	$scope.login = function(){
-		Stamplay.User.currentUser()
-		.then(function(response){
-			console.log(response);
 			if (response.user){
-				$timeout(function(){
-					$location.path("/viewBlogs");
-				});
+				$location.path('/viewblogs');
 			}	else	{
 				Stamplay.User.login($scope.user)
 				.then(function(response){
-					console.log("logged In"+ response);
+					console.log("logged In"+ response)
 					$timeout(function(){
-						$location.path("/viewBlogs");
+						$location.path('/viewblogs');
 					});
 				}, function(error){
 					console.log(error);
@@ -91,7 +97,9 @@ app.controller('signUpCtrl', function($scope){
 				console.log("All good! Lets sign up!");
 				 Stamplay.User.signup($scope.newUser)
 				 .then(function(response){
-				 	console.log(response);
+				 	console.log(response)
+				 }, function(error) {
+				 	console.log(error)
 				 })
 			}	else	{
 				console.log("Password do not match!");

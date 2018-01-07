@@ -1,0 +1,10 @@
+{
+  "appId": "codeblogit",
+  "apiKey": "9169f163a02436b6e91718ec28c4691bab3706e9edb0842ab316e8abe4bc3029",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

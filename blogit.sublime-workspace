@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
-				"err",
-				"error"
+				"te",
+				"temprature"
+			],
+			[
+				"wea",
+				"weatherData"
+			],
+			[
+				"viw",
+				"viewBlogs"
 			],
 			[
 				"form",
@@ -506,14 +514,6 @@
 			[
 				"rgb",
 				"rgb()"
-			],
-			[
-				"cur",
-				"cursor"
-			],
-			[
-				"tb",
-				"tbody\tTag"
 			]
 		]
 	},
@@ -529,10 +529,10 @@
 			}
 		},
 		{
-			"file": "structure/jumbotron.html",
+			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 175,
+				"buffer_size": 2289,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -542,33 +542,14 @@
 			"settings":
 			{
 				"buffer_size": 63,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app.js",
+			"file": "templates/home.html",
 			"settings":
 			{
-				"buffer_size": 2298,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/signup.html",
-			"settings":
-			{
-				"buffer_size": 1857,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "structure/menu.html",
-			"settings":
-			{
-				"buffer_size": 3485,
+				"buffer_size": 87,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -578,12 +559,45 @@
 			"settings":
 			{
 				"buffer_size": 1206,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/signup.html",
+			"settings":
+			{
+				"buffer_size": 1857,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/viewblogs.html",
+			"settings":
+			{
+				"buffer_size": 20,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "structure/jumbotron.html",
+			"settings":
+			{
+				"buffer_size": 178,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "structure/menu.html",
+			"settings":
+			{
+				"buffer_size": 3485,
 				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system": "",
 	"build_system_choices":
 	[
 		[
@@ -606,14 +620,10 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "Package Control: ",
+		"height": 203.0,
+		"last_filter": "livereload",
 		"selected_items":
 		[
-			[
-				"Package Control: ",
-				"Package Control: Install Package"
-			],
 			[
 				"livereload",
 				"LiveReload: Self test"
@@ -635,7 +645,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 392.0
+		"width": 412.0
 	},
 	"console":
 	{
@@ -655,10 +665,12 @@
 	},
 	"expanded_folders":
 	[
-		"/E/Internshala/Angular JS/blogs"
+		"/E/Internshala/Angular/codeBlogIt"
 	],
 	"file_history":
 	[
+		"/E/Internshala/Angular/codeBlogIt/structure/weatherapp.html",
+		"/E/Internshala/Angular/codeBlogIt/blogit.sublime-project",
 		"/E/Internshala/Angular JS/blogs/templates/home.html",
 		"/E/Internshala/Angular JS/blogs/blogit.sublime-project",
 		"/E/Internshala/Web development/Iron Man/index.html",
@@ -784,9 +796,7 @@
 		"/C/wamp64/www/website/report/script.js",
 		"/C/wamp64/www/website/report/style.css",
 		"/C/wamp64/www/website/report/report.html",
-		"/C/wamp64/www/website/people/profile_amit_sitaria.html",
-		"/C/wamp64/www/website/about/script.js",
-		"/C/wamp64/www/website/about/add_feedback.php"
+		"/C/wamp64/www/website/people/profile_amit_sitaria.html"
 	],
 	"find":
 	{
@@ -804,134 +814,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			" class=\"form-control input-md\"",
-			"data",
-			"/span",
-			"255",
-			"strong",
-			";\n",
-			"h2",
-			"h3",
-			"right",
-			"text",
-			"center",
-			"p",
-			"text",
-			"Text",
-			"text",
-			"Text",
-			"text",
-			"Text",
-			"text",
-			"Text",
-			"text",
-			"Text",
-			"text",
-			"Text",
-			"text",
-			"Text",
-			"text",
-			"Text",
-			"text",
-			"Text",
-			"text",
-			"primary",
-			"muted",
-			"h3",
-			"h1",
-			"class=\"col\"",
-			"col",
-			"'",
-			"\"",
-			"10",
-			" ",
-			",",
-			"int ",
-			"5",
-			"p",
-			"span",
-			"nav",
-			"tr",
-			"p",
-			"connection",
-			"first",
-			"last",
-			"connection",
-			"jpg",
-			"photographer",
-			"p",
-			"exampleInputPassword1",
-			"exampleInputEmail1",
-			"jumbotron",
-			"password",
-			"Password",
-			"exampleInputPassword1",
-			"blogs",
-			"20",
-			"9",
-			"10",
-			"10px",
-			"xs",
-			"email",
-			"Email",
-			"email",
-			"pin",
-			"html",
-			"sm",
-			"<p>",
-			"</p>",
-			"exampleInputEmail1",
-			"sm",
-			"span",
-			"p",
-			"span",
-			"</p>",
-			"  </p>",
-			"<p>",
-			"h4",
-			"h3",
-			"resize",
-			"#smallDevices",
-			"panel",
-			"image_placeholder",
-			"timestamp",
-			"blogs",
-			"footer",
-			"links",
-			"image",
-			"\"#commentContent\"",
-			"#commentContent",
-			"this",
-			".content",
-			"upload",
-			"title",
-			"masthead",
-			"subtitle",
-			"masthead",
-			"abc",
-			"localhost",
-			"signature",
-			"_post",
-			"filename",
-			"#signa",
-			"filename",
-			"border: 1px solid black",
-			";*/\n",
-			"%;",
-			"thumbnail",
-			"submit",
-			"div",
-			"html",
-			"submit",
-			"div",
-			">\n",
-			"value",
-			"this.literal",
-			"uploadbu",
-			"span",
-			"\"",
-			"span",
-			"query_2"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -949,7 +831,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -965,8 +847,8 @@
 						"selection":
 						[
 							[
-								531,
-								531
+								1323,
+								1323
 							]
 						],
 						"settings":
@@ -978,35 +860,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "structure/jumbotron.html",
+					"file": "app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 175,
+						"buffer_size": 2289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
+								294,
+								294
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 88.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1034,52 +917,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2298,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1653,
-								1653
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 568.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "templates/signup.html",
+					"buffer": 3,
+					"file": "templates/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1857,
+						"buffer_size": 87,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1289,
-								1289
+								87,
+								87
 							]
 						],
 						"settings":
@@ -1090,40 +945,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "structure/menu.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3485,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2884,
-								2884
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "templates/login.html",
 					"semi_transient": false,
 					"settings":
@@ -1135,8 +961,95 @@
 						"selection":
 						[
 							[
-								1050,
-								1031
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/signup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 137.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/viewblogs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "structure/jumbotron.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
 							]
 						],
 						"settings":
@@ -1147,7 +1060,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "structure/menu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								460,
+								460
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]

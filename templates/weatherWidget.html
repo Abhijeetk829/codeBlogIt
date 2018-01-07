@@ -1,0 +1,65 @@
+
+
+<!-- Static Weather widget -->
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<style type="text/css">
+	.weather-heading {
+		font-family: 'PT Sans', sans-serif;
+		font-size: 30px;
+		font-kerning: normal;
+		font-weight: lighter;
+	}
+
+	.tempCity {
+		font-size: 20px;
+	}
+
+	.temp {
+		font-size: 90px;
+		line-height: 125px;
+		font-family: segoe UI light;
+	}
+
+</style>
+
+<div class="jumbotron">
+	<div class="container">
+		<br>
+		<p class="weather-heading">WEATHER REPORT</p>
+		<hr>
+		<div class="row">
+			<div class="col-md-4">
+				<p class="temp">
+					{{temprature}} °C
+					<br>
+					<p class="tempCity">
+						{{weatherData.name}}, {{weatherData.sys.country}}
+					</p>
+				</p>
+			</div>
+			<div class="col-md-5">
+				<p>
+					Condition : {{weatherData.weather[0].main}}<br>
+					Latitude : {{weatherData.coord.lat}}<br>
+					Longitude : {{weatherData.coord.lon}}<br>
+					Wind Speed : {{weatherData.wind.speed}} m/s at {{(weatherData.wind.deg).toFixed(0)}}°<br>
+					Maximum Temprature : {{(weatherData.main.temp_max - 273.15).toFixed(0)}} °C<br>
+					Minimum Temprature : {{(weatherData.main.temp_min - 273.15).toFixed(0)}} °C<br>
+					Humidity : {{weatherData.main.humidity}} %<br>
+					Pressure : {{weatherData.main.pressure}} mb<br>
+				</p>
+			</div>
+			<div class="col-md-3">
+				<form>
+					<div class="form-group">
+						<input type="text" placeholder="Enter a city name" class="form-control" ng-model="city" required="true">
+					</div>
+					<div class="form-group">
+						<button ng-click="weatherQuery(city, 'true')" class="btn btn-success">Submit</button>
+					</div>		
+				</form>
+			</div>
+		</div>
+		<hr>
+	</div>
+</div>
