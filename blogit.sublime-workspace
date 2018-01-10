@@ -4,6 +4,86 @@
 		"selected_items":
 		[
 			[
+				"tem",
+				"templateUrl"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"f",
+				"form-group"
+			],
+			[
+				"fo",
+				"form-control"
+			],
+			[
+				"c",
+				"content"
+			],
+			[
+				"new",
+				"newBlog"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"bo",
+				"bower_components"
+			],
+			[
+				"temp",
+				"templates"
+			],
+			[
+				"to",
+				"ngToast"
+			],
+			[
+				"input",
+				"input-md"
+			],
+			[
+				"angul",
+				"angular-sanatize"
+			],
+			[
+				"nav-",
+				"nav-link"
+			],
+			[
+				"sta",
+				"Stamplay"
+			],
+			[
+				"re",
+				"removeItem"
+			],
+			[
+				"viewblogs",
+				"viewblogs"
+			],
+			[
+				"cu",
+				"currentUser"
+			],
+			[
+				"navbar",
+				"navbar-right"
+			],
+			[
+				"logg",
+				"loggedIn"
+			],
+			[
 				"te",
 				"temprature"
 			],
@@ -14,10 +94,6 @@
 			[
 				"viw",
 				"viewBlogs"
-			],
-			[
-				"form",
-				"form-control"
 			],
 			[
 				"inpu",
@@ -60,10 +136,6 @@
 				"container-element"
 			],
 			[
-				"di",
-				"display"
-			],
-			[
 				"backgr",
 				"background-size"
 			],
@@ -76,10 +148,6 @@
 				"inline-block"
 			],
 			[
-				"bo",
-				"bolder"
-			],
-			[
 				"hy",
 				"hyperlinks"
 			],
@@ -90,10 +158,6 @@
 			[
 				"ca",
 				"all-petite-caps"
-			],
-			[
-				"c",
-				"titling-case"
 			],
 			[
 				"backgro",
@@ -292,10 +356,6 @@
 				"margin-left"
 			],
 			[
-				"re",
-				"required\tAttr"
-			],
-			[
 				"max",
 				"maxlength\tAttr"
 			],
@@ -360,20 +420,12 @@
 				"overflow-y"
 			],
 			[
-				"temp",
-				"template"
-			],
-			[
 				"n",
 				"unset"
 			],
 			[
 				"data",
 				"datalist\tTag"
-			],
-			[
-				"fo",
-				"font-size"
 			],
 			[
 				"trans",
@@ -462,58 +514,6 @@
 			[
 				"under",
 				"underlay_2"
-			],
-			[
-				"sa",
-				"sepia()"
-			],
-			[
-				"filter",
-				"filter"
-			],
-			[
-				"max-",
-				"max-width"
-			],
-			[
-				"trn",
-				"transition"
-			],
-			[
-				"backgrou",
-				"background"
-			],
-			[
-				"d",
-				"display"
-			],
-			[
-				"eas",
-				"ease-in"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"he",
-				"header_mobile"
-			],
-			[
-				"backgroundi",
-				"background-size"
-			],
-			[
-				"rb",
-				"rgba()"
-			],
-			[
-				"wid",
-				"width"
-			],
-			[
-				"rgb",
-				"rgb()"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1411,
+				"buffer_size": 2378,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
@@ -532,7 +532,16 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 2289,
+				"buffer_size": 5538,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/myblogs.html",
+			"settings":
+			{
+				"buffer_size": 608,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -542,6 +551,16 @@
 			"settings":
 			{
 				"buffer_size": 63,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/weatherWidget.html",
+			"settings":
+			{
+				"buffer_size": 1686,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -549,7 +568,7 @@
 			"file": "templates/home.html",
 			"settings":
 			{
-				"buffer_size": 87,
+				"buffer_size": 111,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -558,7 +577,8 @@
 			"file": "templates/login.html",
 			"settings":
 			{
-				"buffer_size": 1206,
+				"buffer_size": 1213,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -566,7 +586,8 @@
 			"file": "templates/signup.html",
 			"settings":
 			{
-				"buffer_size": 1857,
+				"buffer_size": 1796,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -583,7 +604,7 @@
 			"file": "structure/jumbotron.html",
 			"settings":
 			{
-				"buffer_size": 178,
+				"buffer_size": 215,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -592,7 +613,8 @@
 			"file": "structure/menu.html",
 			"settings":
 			{
-				"buffer_size": 3485,
+				"buffer_size": 2063,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -669,6 +691,17 @@
 	],
 	"file_history":
 	[
+		"/E/Internshala/Angular/codeBlogIt/templates/newblog.html",
+		"/E/Internshala/Angular/codeBlogIt/bower_components/ngToast/dist/ngToast.css",
+		"/E/Internshala/Angular/codeBlogIt/bower_components/ngToast/dist/ngToast-animations.css",
+		"/E/Internshala/Angular/codeBlogIt/bower_components/ngToast/dist/ngToast.min.css",
+		"/E/Internshala/Angular/codeBlogIt/bower_components/ngToast/dist/ngToast.js",
+		"/E/Internshala/Angular/codeBlogIt/bower_components/ngToast/dist/ngToast.min.js",
+		"/C/wamp64/www/website/gallery/gallery.php",
+		"/C/wamp64/www/website/index.php",
+		"/E/Internshala/Angular/codeBlogIt - ngroute/app.js",
+		"/E/Internshala/Angular/codeBlogIt/bower_components/angular-route/angular-route.js",
+		"/E/Internshala/Angular/codeBlogIt/templates/weatherWidget.html",
 		"/E/Internshala/Angular/codeBlogIt/structure/weatherapp.html",
 		"/E/Internshala/Angular/codeBlogIt/blogit.sublime-project",
 		"/E/Internshala/Angular JS/blogs/templates/home.html",
@@ -716,7 +749,6 @@
 		"/E/Angular Js/C/index.c",
 		"/C/wamp64/www/website/gallery/script.js",
 		"/C/Users/Abhijeet/Desktop/Portfolio Website/css/singlePageTemplate.css",
-		"/C/wamp64/www/website/index.php",
 		"/C/wamp64/www/portfolio/script.js",
 		"/C/wamp64/www/portfolio/style.css",
 		"/C/wamp64/www/portfolio/index.html",
@@ -780,27 +812,17 @@
 		"/C/wamp64/www/website/video/videos.php",
 		"/C/wamp64/www/website/people/people.html",
 		"/C/wamp64/www/website/people/people.css",
-		"/C/wamp64/www/website/gallery/gallery.php",
 		"/C/wamp64/www/website/blogs/blogs.php",
 		"/C/wamp64/www/website/video/script.js",
 		"/C/wamp64/www/website/video/verification/style.css",
 		"/C/wamp64/www/website/video/verification/script.js",
 		"/C/wamp64/www/website/video/verification/add_video.php",
 		"/C/wamp64/www/website/blogs/template/add_comment.php",
-		"/C/wamp64/www/website/video/style.css",
-		"/C/wamp64/www/website/video/video.php",
-		"/C/wamp64/www/website/blogs/new blog/script.js",
-		"/C/wamp64/www/website/events/script.js",
-		"/E/Internshala/bootstrap/css/bootstrap-theme.css",
-		"/C/wamp64/www/website/video/video.html",
-		"/C/wamp64/www/website/report/script.js",
-		"/C/wamp64/www/website/report/style.css",
-		"/C/wamp64/www/website/report/report.html",
-		"/C/wamp64/www/website/people/profile_amit_sitaria.html"
+		"/C/wamp64/www/website/video/style.css"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -814,6 +836,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"setT",
+			"btn-block",
+			"firstName",
+			"\t\t\t\t\t$",
+			";\n",
+			"\t\t\t\t$",
+			"codeblogit"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -831,7 +860,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -840,15 +869,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1411,
+						"buffer_size": 2378,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1323,
-								1323
+								1152,
+								1361
 							]
 						],
 						"settings":
@@ -857,10 +886,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 55.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -869,15 +898,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2289,
+						"buffer_size": 5538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								294,
-								294
+								5535,
+								5535
 							]
 						],
 						"settings":
@@ -886,14 +915,42 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 88.0,
+						"translation.y": 2286.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/myblogs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								572,
+								572
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "style.css",
 					"semi_transient": false,
 					"settings":
@@ -905,8 +962,8 @@
 						"selection":
 						[
 							[
-								63,
-								63
+								61,
+								61
 							]
 						],
 						"settings":
@@ -917,24 +974,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "templates/home.html",
+					"buffer": 4,
+					"file": "templates/weatherWidget.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 87,
+						"buffer_size": 1686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								87,
-								87
+								277,
+								277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 65.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
 							]
 						],
 						"settings":
@@ -942,27 +1028,56 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 34.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "templates/login.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1206,
+						"buffer_size": 1213,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1125,
+								1125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "templates/signup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1796,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
 							]
 						],
 						"settings":
@@ -978,36 +1093,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "templates/signup.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1857,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 137.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "templates/viewblogs.html",
 					"semi_transient": false,
 					"settings":
@@ -1036,20 +1122,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "structure/jumbotron.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 178,
+						"buffer_size": 215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								105,
-								105
+								54,
+								54
 							]
 						],
 						"settings":
@@ -1064,20 +1150,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "structure/menu.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3485,
+						"buffer_size": 2063,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								460,
-								460
+								122,
+								122
+							],
+							[
+								132,
+								132
 							]
 						],
 						"settings":
@@ -1086,10 +1176,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 96.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1097,7 +1187,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 21.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -1138,7 +1228,7 @@
 	"project": "blogit.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -1,0 +1,27 @@
+
+
+
+<div class="container">
+	<div class="form-group">
+		<h1>Edit Blog</h1>
+	</div>
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="form-group">
+				<input type="text" class="form-control input-md" ng-model="post.title">
+			</div>
+			<div class="form-group">
+				<div text-angular ng-model="post.content"></div>
+			</div>
+			<div class="form-group">
+				<button class="btn btn-success button-md pull-right" ng-click="update()">Update</button>
+			</div>
+		</div>
+
+		<div class="col-lg-6">
+			<div class="">Preview</div>
+			<hr>
+			<div ng-bind-html="post.content"></div>
+		</div>
+	</div>
+</div>

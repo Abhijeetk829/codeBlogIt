@@ -1,0 +1,26 @@
+
+
+<div class="jumbotron">
+	<div class="form-group">
+		<h1>New Blog</h1>
+	</div>
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="form-group">
+				<input type="text" class="form-control input-md" ng-model="newBlog.title" placeholder="Title">
+			</div>
+			<div class="form-group">
+				<div text-angular ng-model="newBlog.content"></div>
+			</div>
+			<div class="form-group">
+				<button class="btn btn-success button-md pull-right" ng-click="newblog()">Publish</button>
+			</div>
+		</div>
+
+		<div class="col-lg-6">
+			<div class="">Preview</div>
+			<hr>
+			<div ng-bind-html="newBlog.content"></div>
+		</div>
+	</div>
+</div>

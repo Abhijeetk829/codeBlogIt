@@ -1,0 +1,27 @@
+
+
+<div class="container-fluid">
+	<div class="form-group">
+		<h2>Latest Blogs</h2>
+	</div>
+	<div class="row">
+		<!-- <div class="col-md-12"> -->
+			<div class="col-lg-3 col-md-4" ng-repeat="blog in latestBlogs" style="min-height: 250px">
+				<div class="card-header text-muted">
+					{{blog.title}}
+				</div>
+				<div class="card-block container-fluid">
+					<!-- <h4 class="card-title">{{blog.title}}</h4> -->
+					<p class="card-text" ng-bind-html="blog.content | toPlainText | limitTo : 100"></p>
+					<div class="form-group">
+						<a href="#/view/{{blog._id}}" class="btn btn-primary pull right">Read Now</a>
+						<!-- <a href="#/view/{{blog._id}}" class="btn btn-success">Read</a> -->
+					</div>
+				</div>
+				<div class="card-footer text-muted">
+					{{blog.actions.comment.length}} comments
+				</div>
+			</div>
+		<!-- </div> -->
+	</div>
+</div>

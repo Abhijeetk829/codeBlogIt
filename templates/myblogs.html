@@ -1,0 +1,43 @@
+
+
+
+
+<div class="container-fluid jumbotron" ng-if="blog in userBlogs">
+	
+	<div class="col-sm-12">
+		<h1>My Blogs</h1>
+		<hr>
+	</div>
+	
+	<div class="row">
+		<!-- <div class="col-md-12"> -->
+			<div class="col-lg-3 col-md-4 form-group" ng-repeat="blog in userBlogs" style="min-height: 250px">
+				<div class="card-header text-muted">
+					Featured
+				</div>
+				<div class="card-block container-fluid">
+					<h4 class="card-title">{{blog.title}}</h4>
+					<p class="card-text" ng-bind-html="blog.content | toPlainText | limitTo : 100"></p>
+					<div class="form-group">
+						<a href="#/edit/{{blog._id}}" class="btn btn-primary">Edit</a>
+						<a href="#/view/{{blog._id}}" class="btn btn-success">Read</a>
+					</div>
+				</div>
+				<div class="card-footer text-muted">
+					{{blog.dt_create.slice(0,10).split("-").reverse().join("-")}}
+				</div>
+			</div>
+		<!-- </div> -->
+	</div>
+
+	<div class="col-sm-12">
+		<hr>
+	</div>
+</div>
+
+<div class="container">
+	<div class="jumbotron form-group">
+		<h1>Nothing to show</h1>
+		<p>Click on <a ui-sref='newblog' style="text-decoration: none;"><kbd>New Blog</kbd></a> and get started</p>
+	</div>
+</div>
