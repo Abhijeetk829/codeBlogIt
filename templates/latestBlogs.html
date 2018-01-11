@@ -1,9 +1,10 @@
 
 
-<div class="container-fluid">
+<div class="container-fluid" style="margin: 20px 0" ng-if="blog in latestBlogs">
 	<div class="form-group">
 		<h2>Latest Blogs</h2>
 	</div>
+	<hr>
 	<div class="row">
 		<!-- <div class="col-md-12"> -->
 			<div class="col-lg-3 col-md-4" ng-repeat="blog in latestBlogs" style="min-height: 250px">
@@ -24,4 +25,5 @@
 			</div>
 		<!-- </div> -->
 	</div>
+	<hr>
 </div>

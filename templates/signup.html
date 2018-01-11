@@ -10,29 +10,33 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-6">
 						<div class="form-group">
-							<input type="text" ng-model="newUser.firstName" class="form-control input-md" placeholder="firstName" tabindex="1" required="true">
+							<input type="text" ng-model="newUser.firstName" class="form-control input-md" placeholder="First Name" tabindex="1" required="true">
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6">
 						<div class="form-group">
-							<input type="text" ng-model="newUser.lastName" class="form-control input-md" placeholder="lastName" tabindex="2" required="true">
+							<input type="text" ng-model="newUser.lastName" class="form-control input-md" placeholder="Last Name" tabindex="2" required="true">
 						</div>
 					</div>
 				</div>
 
 				<div class="form-group">
-					<input type="email" ng-model="newUser.email" class="form-control input-md" placeholder="Email Address" tabindex="3" required="true">
+					<input type="text" ng-model="newUser.displayname" class="form-control input-md" placeholder="Display Name" tabindex="4" required="true" maxlength="12">
+				</div>
+
+				<div class="form-group">
+					<input type="email" ng-model="newUser.email" class="form-control input-md" placeholder="Email Address" tabindex="5" required="true">
 				</div>
 
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-6">
 						<div class="form-group">
-							<input type="password" ng-model="newUser.password" class="form-control input-md" placeholder="password" tabindex="4" required="true">
+							<input type="password" ng-model="newUser.password" class="form-control input-md" placeholder="password" tabindex="6" required="true">
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6">
 						<div class="form-group">
-							<input type="password" ng-model="newUser.confirmPassword" class="form-control input-md" placeholder="Confirm Password" tabindex="5" required="true">
+							<input type="password" ng-model="newUser.confirmPassword" class="form-control input-md" placeholder="Confirm Password" tabindex="7" required="true">
 						</div>
 					</div>
 				</div>
@@ -44,7 +48,7 @@
 						</a>
 					</div>
 					<div class="col-sm-6">
-						<button type="submit" ng-click="signUp()" class="btn btn-primary btn-block btn-md" tabindex="6">
+						<button type="submit" ng-click="signUp()" class="btn btn-primary btn-block btn-md" tabindex="8">
 							Register
 						</button>
 					</div>

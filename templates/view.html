@@ -8,7 +8,7 @@
 						<h1>{{blog.title}}</h1>
 					</div>
 					<blockquote class="blockquote text-right">
-					  <footer class="blockquote-footer">By : <cite title="Source Title">{{blog.owner}}</cite><br>Created on: <cite>{{blog.dt_create.slice(0,10).split("-").reverse().join("-")}}</cite></footer>
+					  <footer class="blockquote-footer">Author : <cite title="Source Title">{{blog.owner}}</cite> | Created on: <cite>{{blog.dt_create.slice(0,10).split("-").reverse().join("-")}}</cite></footer>
 					</blockquote>
 				</div>
 				<div class="container"><hr></div>
@@ -18,28 +18,43 @@
 				</div>
 				
 				<div class="container"><hr></div>
-			</div>
-
-			<div class="col-md-4">
-				<h1>Comments</h1>
-				<hr>
-				<div class="row">
-					<div class="form-group col-sm-12">
-						<button class="btn btn-success button-sm" ng-click="upvote()">Upvote | {{upvoteCount}}</button>
-						<button class="btn btn-danger button-sm" ng-click="downvote()">Downvote | {{downvoteCount}}</button>
+				
+				<div class="container">
+					<div class="row">
+						<div class="form-group col-sm-12">
+							<button class="btn btn-success button-sm" ng-click="upvote()">Upvote | {{upvoteCount}}</button>
+							<button class="btn btn-danger button-sm" ng-click="downvote()">Downvote | {{downvoteCount}}</button>
+						</div>
 					</div>
 				</div>
+
+			</div>
+
+			<div class="col-md-4 form-group	">
+				<div style="margin-top: 20px;">
+						<h1>Comments</h1>
+					</div>
+				<hr>
+				
 				<div class="form-group">
-					<div ng-repeat="comment in blogPost.actions.comments">
-						<kbd>{{comment.displayName}}</kbd>  
-						{{comment.text}}
+					<div class="form-group" ng-repeat="comment in blog.actions.comments">
+						<div class="form-control" style="border-radius: 20px;">
+							<div class="row">
+								<div class="col-6 text-primary" style="text-overflow: scroll">
+									{{comment.displayName}}
+								</div>
+								<div class="col-6">
+									{{comment.text}}
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				
 				<div class="form-group">
 					<div class="row">
 						<div class="col-lg-8 form-group">
-							<input type="text" class="form-control" style="width: 100%; height: 40px" ng-model="comment">
+							<input type="text" class="form-control" style="width: 100%; height: 40px" ng-model="comment" maxlength="30">
 						</div>
 						<div class="col-lg-4 form-group">
 							<button class="btn btn-primary pull-right" ng-click="postComment()">Comment</button>

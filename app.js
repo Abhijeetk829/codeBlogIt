@@ -14,6 +14,7 @@ app.factory('auth', function($q, $rootScope){
 				if (response.user){
 					defer.resolve(true);
 					$rootScope.loggedIn = true;
+					$rootScope.displayName = response.user.firstName+" "+response.user.lastName;
 				}	else {
 					defer.resolve(false);
 					$rootScope.loggedIn = false;
@@ -31,6 +32,7 @@ app.run(function($rootScope, auth, $state, $transitions){
 			auth.isAuthenticated()
 			.then(function(response){
 				console.log(response);
+				$rootScope.displayName = response.user.firstName+" "+response.user.lastName;
 				if(response == false){
 					$state.go('login');
 				}
@@ -78,7 +80,7 @@ app.filter('toPlainText', function(){
 
 app.config(function($stateProvider, $urlRouterProvider){
 
-		Stamplay.init("codenameblogit");
+		Stamplay.init("blog4u");
 
 		$stateProvider
 			.state('home', {
@@ -155,19 +157,19 @@ app.controller('homeCtrl', function($scope, $http){
 		}
 
 		$scope.warn = function() {
-			alert("You fool!");
+			// alert("You fool!");
 		}
 	}
 
-	Stamplay.Object("blogs").get({sort: "-dt_create"})
-	.then(function(response){
-		// console.log(response);
-		$scope.latestBlogs = response.data;
-		$scope.$apply();
-		// console.log($scope.latestBlogs);
-	}, function(error){
-		// console.log(error);
-	});
+	// Stamplay.Object("blogs").get({sort: "-dt_create"})
+	// .then(function(response){
+	// 	// console.log(response);
+	// 	$scope.latestBlogs = response.data;
+	// 	$scope.$apply();
+	// 	// console.log($scope.latestBlogs);
+	// }, function(error){
+	// 	// console.log(error);
+	// });
 
 	$scope.weatherQuery("Bhopal","false")
 });
@@ -210,7 +212,7 @@ app.controller('signUpCtrl', function($scope, $rootScope, $state, ngToast, $time
 	$scope.newUser = {};
 	$scope.signUp = function(){
 
-		if($scope.newUser.firstName && $scope.newUser.lastName && $scope.newUser.email && $scope.newUser.password && $scope.newUser.confirmPassword){
+		if($scope.newUser.firstName && $scope.newUser.lastName && $scope.newUser.email && $scope.newUser.password && $scope.newUser.confirmPassword && $scope.newUser.displayname){
 			// console.log("All fields are valid");
 
 			if ($scope.newUser.password == $scope.newUser.confirmPassword){
@@ -221,6 +223,7 @@ app.controller('signUpCtrl', function($scope, $rootScope, $state, ngToast, $time
 				 		$rootScope.loggedIn = true;
 				 	});
 				 	$state.go("login");
+				 	console.log(response);
 				 }, function(error) {
 				 	$timeout(function() {
 				 		ngToast.create("Error occurred, please try later!");
@@ -301,6 +304,8 @@ app.controller('myblogsCtrl', function($scope, $state){
 
 app.controller('editCtrl', function($scope, $state, taOptions, $stateParams, ngToast, auth){
 
+	ngToast.create("Use landscape images for better viewing");
+
 	$scope.post = {};
 
 	taOptions.toolbar = [
@@ -350,7 +355,10 @@ app.controller('editCtrl', function($scope, $state, taOptions, $stateParams, ngT
   	}
 });
 
-app.controller('viewCtrl', function($scope, $stateParams, $state, $timeout, ngToast){
+app.controller('viewCtrl', function($scope, $stateParams, $state, $timeout, ngToast, auth){
+
+	$scope.comment = "Hey here";
+	ngToast.create("Do upvote if you like the blog");
 
 	$scope.upvoteCount = 0;
 	$scope.downvoteCount = 4;
@@ -358,10 +366,94 @@ app.controller('viewCtrl', function($scope, $stateParams, $state, $timeout, ngTo
 	Stamplay.Object("blogs").get({_id: $stateParams.id})
 	.then(function(response){
 		$scope.blog = response.data[0]
-		console.log($scope.blog)
+		$scope.upvoteCount = $scope.blog.actions.votes.users_upvote.length;
+		$scope.downvoteCount = $scope.blog.actions.votes.users_downvote.length;
+		$scope.$apply();
+		// console.log($scope.blog)
 		// $scope.apply();
 		// console.log($scope.blogPost);
 	}, function(error){
-		console.log(error)
+		// console.log(error)
 	})
-});
+
+	$scope.postComment = function(){
+		auth.isAuthenticated()
+		.then(function(response){
+			if (response == false){
+				$timeout(function(){
+					ngToast.create('Signup or login to add comments!');
+				});
+			}	else	{
+				Stamplay.Object("blogs").comment($stateParams.id, $scope.comment)
+				.then(function(response){
+					// console.log(response);
+					$scope.blog = response;
+					$scope.comment = "";
+					$scope.apply();
+				}, function(error){
+					console.log(error);
+					if (error.code == 403){
+						console.log(error);
+						$timeout(function(){
+							ngToast.create('<a href="#/login" class="">Login First!</a>');
+						});
+					}
+				})
+			}
+		}, function(error){
+			console.log(error);
+		});
+		
+	};
+
+	$scope.upvote = function(){
+		Stamplay.Object("blogs").upVote($stateParams.id)
+		.then(function(response){
+			console.log(response);
+			$scope.blog = res;
+			$scope.comment = "";
+			$scope.upvoteCount = $scope.blog.actions.votes.users_upvote.length;
+			$scope.$apply();
+		}, function(error){
+			console.log(error);
+			if (error.code == 403){
+				console.log("Login first!");
+				$timeout(function(){
+					ngToast.create("Please login before voting!");
+				});
+			}
+			if (error.code == 406){
+				console.log("already Voted!");
+				$timeout(function(){
+					ngToast.create("You have already voted for this blog");
+				});
+			}
+		})
+	}
+
+	$scope.upvote = function(){
+		Stamplay.Object("blogs").downVote($stateParams.id)
+		.then(function(response){
+			console.log(response);
+			$scope.blog = res;
+			$scope.comment = "";
+			$scope.upvoteCount = $scope.blog.actions.votes.users_upvote.length;
+			$scope.downvoteCount = $scope.blog.actions.votes.users_downvote.length;
+			$scope.$apply();
+		}, function(error){
+			console.log(error);
+			if (error.code == 403){
+				console.log("Login first!");
+				$timeout(function(){
+					ngToast.create("Please login before voting!");
+				});
+			}
+			if (error.code == 406){
+				console.log("already Voted!");
+				$timeout(function(){
+					ngToast.create("You have already voted for this blog");
+				});
+			}
+		})
+	}
+})
